@@ -18,37 +18,42 @@ body {
   height: 100vh;
 }
 
-nav{
+a:hover {
+  color: rgb(204, 204, 204);
+  transition: 0.2s;
+}
+
+nav {
   height: 100px;
   width: 100%;
 }
 
-nav ul{
+nav ul {
   float: right;
   margin-right: 20px;
 }
-nav ul li{
+nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
-nav ul li a{
+nav ul li a {
   color: #fff;
   font-size: 18px;
   padding: 7px 13px;
   border-radius: 3px;
 }
 
-.checkbtn{
+.checkbtn {
   font-size: 30px;
   color: #fff;
   float: right;
   line-height: 80px;
-  margin-right: 40px;
+  margin-right: 25px;
   cursor: pointer;
   display: none;
 }
-#check{
+#check {
   display: none;
 }
 
@@ -65,9 +70,9 @@ nav ul li a{
 }
 
 .x1 {
-  -webkit-animation: animateCloud 65s linear infinite;
-  -moz-animation: animateCloud 65s linear infinite;
-  -o-animation: animateCloud 65s linear infinite;
+  -webkit-animation: animateCloud 105s linear infinite;
+  -moz-animation: animateCloud 105s linear infinite;
+  -o-animation: animateCloud 105s linear infinite;
 }
 
 .x2 {
@@ -78,9 +83,9 @@ nav ul li a{
   transform: scale(0.6);
   opacity: 0.6;
 
-  -webkit-animation: animateCloud 80s linear infinite;
-  -moz-animation: animateCloud 80s linear infinite;
-  -o-animation: animateCloud 80s linear infinite;
+  -webkit-animation: animateCloud 120s linear infinite;
+  -moz-animation: animateCloud 120s linear infinite;
+  -o-animation: animateCloud 120s linear infinite;
 }
 
 .x3 {
@@ -91,9 +96,9 @@ nav ul li a{
   transform: scale(0.8);
   opacity: 0.8;
 
-  -webkit-animation: animateCloud 75s linear infinite;
-  -moz-animation: animateCloud 75s linear infinite;
-  -o-animation: animateCloud 75s linear infinite;
+  -webkit-animation: animateCloud 115s linear infinite;
+  -moz-animation: animateCloud 115s linear infinite;
+  -o-animation: animateCloud 115s linear infinite;
 }
 
 .x4 {
@@ -104,9 +109,9 @@ nav ul li a{
   transform: scale(0.75);
   opacity: 0.75;
 
-  -webkit-animation: animateCloud 73s linear infinite;
-  -moz-animation: animateCloud 73s linear infinite;
-  -o-animation: animateCloud 73s linear infinite;
+  -webkit-animation: animateCloud 113s linear infinite;
+  -moz-animation: animateCloud 113s linear infinite;
+  -o-animation: animateCloud 113s linear infinite;
 }
 
 .x5 {
@@ -117,9 +122,9 @@ nav ul li a{
   transform: scale(0.8);
   opacity: 0.8;
 
-  -webkit-animation: animateCloud 75s linear infinite;
-  -moz-animation: animateCloud 75s linear infinite;
-  -o-animation: animateCloud 75s linear infinite;
+  -webkit-animation: animateCloud 115s linear infinite;
+  -moz-animation: animateCloud 115s linear infinite;
+  -o-animation: animateCloud 115s linear infinite;
 }
 
 .x6 {
@@ -130,9 +135,9 @@ nav ul li a{
   transform: scale(0.8);
   opacity: 0.75;
 
-  -webkit-animation: animateCloud 85s linear infinite;
-  -moz-animation: animateCloud 85s linear infinite;
-  -o-animation: animateCloud 85s linear infinite;
+  -webkit-animation: animateCloud 125s linear infinite;
+  -moz-animation: animateCloud 125s linear infinite;
+  -o-animation: animateCloud 125s linear infinite;
 }
 
 .x7 {
@@ -143,9 +148,9 @@ nav ul li a{
   transform: scale(0.6);
   opacity: 0.8;
 
-  -webkit-animation: animateCloud 73s linear infinite;
-  -moz-animation: animateCloud 73s linear infinite;
-  -o-animation: animateCloud 73s linear infinite;
+  -webkit-animation: animateCloud 113s linear infinite;
+  -moz-animation: animateCloud 113s linear infinite;
+  -o-animation: animateCloud 113s linear infinite;
 }
 
 .container-logo {
@@ -179,30 +184,342 @@ nav ul li a{
   font-size: 1.2em;
 }
 
-
 @-webkit-keyframes animateCloud {
-    0% {
-        margin-left: 100%;
-    }
-    100% {
-        margin-left: -100%;
-    }
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -100%;
+  }
 }
 
 @-moz-keyframes animateCloud {
-    0% {
-        margin-left: 100%;
-    }
-    100% {
-        margin-left: -100%;
-    }
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -100%;
+  }
 }
 
 @keyframes animateCloud {
-    0% {
-        margin-left: 100%;
-    }
-    100% {
-        margin-left: -100%;
-    }
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .x1 {
+    -webkit-animation: animateCloud 85s linear infinite;
+    -moz-animation: animateCloud 85s linear infinite;
+    -o-animation: animateCloud 85s linear infinite;
+  }
+
+  .x2 {
+    left: 200px;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.6;
+
+    -webkit-animation: animateCloud 100s linear infinite;
+    -moz-animation: animateCloud 100s linear infinite;
+    -o-animation: animateCloud 100s linear infinite;
+  }
+
+  .x3 {
+    top: -200px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 95s linear infinite;
+    -moz-animation: animateCloud 95s linear infinite;
+    -o-animation: animateCloud 95s linear infinite;
+  }
+
+  .x4 {
+    top: -250px;
+
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+    opacity: 0.75;
+
+    -webkit-animation: animateCloud 93s linear infinite;
+    -moz-animation: animateCloud 93s linear infinite;
+    -o-animation: animateCloud 93s linear infinite;
+  }
+
+  .x5 {
+    top: -150px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 95s linear infinite;
+    -moz-animation: animateCloud 95s linear infinite;
+    -o-animation: animateCloud 95s linear infinite;
+  }
+
+  .x6 {
+    top: -130px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.75;
+
+    -webkit-animation: animateCloud 105s linear infinite;
+    -moz-animation: animateCloud 105s linear infinite;
+    -o-animation: animateCloud 105s linear infinite;
+  }
+
+  .x7 {
+    top: -250px;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 93s linear infinite;
+    -moz-animation: animateCloud 93s linear infinite;
+    -o-animation: animateCloud 93s linear infinite;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .x1 {
+    -webkit-animation: animateCloud 65s linear infinite;
+    -moz-animation: animateCloud 65s linear infinite;
+    -o-animation: animateCloud 65s linear infinite;
+  }
+
+  .x2 {
+    left: 200px;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.6;
+
+    -webkit-animation: animateCloud 80s linear infinite;
+    -moz-animation: animateCloud 80s linear infinite;
+    -o-animation: animateCloud 80s linear infinite;
+  }
+
+  .x3 {
+    top: -200px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 75s linear infinite;
+    -moz-animation: animateCloud 75s linear infinite;
+    -o-animation: animateCloud 75s linear infinite;
+  }
+
+  .x4 {
+    top: -250px;
+
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+    opacity: 0.75;
+
+    -webkit-animation: animateCloud 73s linear infinite;
+    -moz-animation: animateCloud 73s linear infinite;
+    -o-animation: animateCloud 73s linear infinite;
+  }
+
+  .x5 {
+    top: -150px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 75s linear infinite;
+    -moz-animation: animateCloud 75s linear infinite;
+    -o-animation: animateCloud 75s linear infinite;
+  }
+
+  .x6 {
+    top: -130px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.75;
+
+    -webkit-animation: animateCloud 85s linear infinite;
+    -moz-animation: animateCloud 85s linear infinite;
+    -o-animation: animateCloud 85s linear infinite;
+  }
+
+  .x7 {
+    top: -250px;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 73s linear infinite;
+    -moz-animation: animateCloud 73s linear infinite;
+    -o-animation: animateCloud 73s linear infinite;
+  }
+
+  .checkbtn {
+    display: block;
+    font-size: 40px;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 60px;
+    left: -100%;
+    text-align: right;
+    transition: all 0.5s;
+    margin-left: -15px;
+  }
+  nav ul li {
+    display: block;
+    margin: 15px 0;
+    line-height: 25px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .x1 {
+    -webkit-animation: animateCloud 45s linear infinite;
+    -moz-animation: animateCloud 45s linear infinite;
+    -o-animation: animateCloud 45s linear infinite;
+  }
+
+  .x2 {
+    left: 200px;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.6;
+
+    -webkit-animation: animateCloud 60s linear infinite;
+    -moz-animation: animateCloud 60s linear infinite;
+    -o-animation: animateCloud 60s linear infinite;
+  }
+
+  .x3 {
+    top: -200px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 55s linear infinite;
+    -moz-animation: animateCloud 55s linear infinite;
+    -o-animation: animateCloud 55s linear infinite;
+  }
+
+  .x4 {
+    top: -250px;
+
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+    opacity: 0.75;
+
+    -webkit-animation: animateCloud 53s linear infinite;
+    -moz-animation: animateCloud 53s linear infinite;
+    -o-animation: animateCloud 53s linear infinite;
+  }
+
+  .x5 {
+    top: -150px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 55s linear infinite;
+    -moz-animation: animateCloud 55s linear infinite;
+    -o-animation: animateCloud 55s linear infinite;
+  }
+
+  .x6 {
+    top: -130px;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.75;
+
+    -webkit-animation: animateCloud 65s linear infinite;
+    -moz-animation: animateCloud 65s linear infinite;
+    -o-animation: animateCloud 65s linear infinite;
+  }
+
+  .x7 {
+    top: -250px;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 0.8;
+
+    -webkit-animation: animateCloud 53s linear infinite;
+    -moz-animation: animateCloud 53s linear infinite;
+    -o-animation: animateCloud 53s linear infinite;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 60px;
+    left: -100%;
+    text-align: right;
+    transition: all 0.5s;
+    margin-left: -15px;
+  }
+  nav ul li {
+    display: block;
+    margin: 15px 0;
+    line-height: 15px;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
 }
